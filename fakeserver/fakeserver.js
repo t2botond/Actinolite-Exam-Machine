@@ -7,12 +7,13 @@ var mysql = require('mysql');
 var app = express();
 app.use(bodyParser.json());
 
-// need path
-///app.use(express.static('../????'));
+
+//app.use(express.static('./../exam-machine/src'));
+
 
 ///
 // app.post('/user', function(req, res) {
 //
 // });
-var port = process.env.PORT || 5000;
+//var port = process.env.PORT || 5000;
 app.listen(5000);
